@@ -46,7 +46,7 @@ It would also be possible to use methods such as Z-scores and Interquartile Rang
 INNER JOIN Shippers ON Orders.ShipperID=Shippers.ShipperID
 WHERE Shippers.ShipperName='Speedy Express';
 
-54
+Result: 54
 ```
 
 > What is the last name of the employee with the most orders?
@@ -58,12 +58,19 @@ INNER JOIN Orders ON Employees.EmployeeID=Orders.EmployeeID
 GROUP BY Employees.LastName
 ORDER BY Count(Employees.LastName) DESC
 
-Peacock
+Result: Peacock
 ```
 
 >What product was ordered the most by customers in Germany?
 
 ```sql
-//
+//SELECT Top 1 Products.ProductName
+FROM ((Products
+  INNER JOIN OrderDetails ON Products.ProductID=OrderDetails.ProductID)
+  INNER JOIN Orders ON OrderDetails.OrderID=Orders.OrderID)
+  INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID
+GROUP BY Products.ProductName
+ORDER BY SUM(OrderDetails.Quantity) DESC
 
+Result: Gorgonzola Telino 
 ```
