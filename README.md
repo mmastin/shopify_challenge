@@ -8,6 +8,7 @@ From both the Sneaker Shop AOV problem description and a statistical summary of 
 
 But the simplest solution doesn't help determine why exactly the mean is so much higher!
 
+
 *Original Descriptive Statistics*
 ![Stats](https://github.com/mmastin/shopify_challenge/blob/master/Images/original_stats.png)
 
@@ -22,12 +23,14 @@ By removing only these two extreme outliers from the dataset, I was able to get 
 
 In my opinion, the new AOV is a better metric to use for this analysis than median, because it incorporates information from the majority of expensive orders and shoes. 
 
-*Final Descriptive Statistics Without Outliers*
+It would also be possible to use methods such as Z-scores and Interquartile Range (IQR) to limit the effects of outliers on the analysis.
 
+
+*Final Descriptive Statistics Without Outliers*
 ![Stats](https://github.com/mmastin/shopify_challenge/blob/master/Images/cleaned_stats.png)
 
-*Final Scatter Plot of Data*
 
+*Final Scatter Plot of Data*
 ![Stats](https://github.com/mmastin/shopify_challenge/blob/master/Images/final_scatter.png)
 
 
