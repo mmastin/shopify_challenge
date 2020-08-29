@@ -17,7 +17,7 @@ But the simplest solution doesn't help determine why exactly the mean is so much
 I created an additional feature, 'avg_shoe_cost,' to figure out the cause of the discrepancy.
 
 Using Python, Pandas, NumPy, and Matplotlib, I was able to determine two direct causes:
-- There are 17 total orders of 2,000 items for $704,000, vastly larger than all others. Strangely, they all occur at exactly 4am on different days. These are possibly wholesale distribution to a large client or a data encoding error. 
+- There are 17 total orders of 2,000 items for $704,000, vastly larger than all others. Strangely, they all occur at exactly 4am on different days. These are possibly wholesale distribution orders to a large client or a data encoding error. 
 - There are 46 orders of a sneaker that costs $25,725, while no other sneaker in the dataset cost over $1,000. From some additional research, these are possibly an incredibly rare sneaker such as the DJ Khaled x Air Jordan 3 'Grateful' or Auto-Lacing Nike Mag.
 
 By removing only these two extreme outliers from the dataset, I was able to get a clear picture of the other 98.7% of orders. The AOV is now $302.58 - quite close to the original median of $284.
