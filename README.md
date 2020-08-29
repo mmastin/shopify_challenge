@@ -8,9 +8,9 @@ From both the Sneaker Shop AOV problem description and a statistical summary of 
 
 But the simplest solution doesn't help determine why exactly the mean is so much higher!
 
+*Original Descriptive Statistics*
 ![Stats](https://github.com/mmastin/shopify_challenge/blob/master/Images/original_stats.png)
 
-*Original Descriptive Statistics*
 
 I created an additional feature, 'avg_shoe_cost,' to figure out the cause of the discrepancy.
 
@@ -22,13 +22,13 @@ By removing only these two extreme outliers from the dataset, I was able to get 
 
 In my opinion, the new AOV is a better metric to use for this analysis than median, because it incorporates information from the majority of expensive orders and shoes. 
 
-![Stats](https://github.com/mmastin/shopify_challenge/blob/master/Images/cleaned_stats.png)
-
 *Final Descriptive Statistics Without Outliers*
 
+![Stats](https://github.com/mmastin/shopify_challenge/blob/master/Images/cleaned_stats.png)
+
+*Final Scatter Plot of Data*
 
 ![Stats](https://github.com/mmastin/shopify_challenge/blob/master/Images/final_scatter.png)
-*Final Scatter Plot of Data*
 
 
 # SQL Queries
