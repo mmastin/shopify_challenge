@@ -1,8 +1,10 @@
 # Shopify Data Science Challenge
 
-> Subtitle or Short Description Goes Here
+> Sneaker Stores Average Order Value Outliers
 
 ![Full data exploration & analysis Jupyter Notebook here](https://github.com/mmastin/shopify_challenge/blob/master/data_exploration.ipynb)
+
+
 
 
 # SQL Queries
