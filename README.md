@@ -4,7 +4,7 @@
 
 ![Full data exploration & analysis Jupyter Notebook here](https://github.com/mmastin/shopify_challenge/blob/master/data_exploration.ipynb)
 
-
+![Stats](https://github.com/mmastin/shopify_challenge/blob/master/Images/original_stats.png)
 
 
 # SQL Queries
