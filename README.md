@@ -69,8 +69,9 @@ FROM ((Products
   INNER JOIN OrderDetails ON Products.ProductID=OrderDetails.ProductID)
   INNER JOIN Orders ON OrderDetails.OrderID=Orders.OrderID)
   INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID
+WHERE Customers.Country='Germany'
 GROUP BY Products.ProductName
-ORDER BY SUM(OrderDetails.Quantity) DESC
+ORDER BY SUM(OrderDetails.Quantity) DESC;
 
-Result: Gorgonzola Telino 
+Result: Boston Crab Meat
 ```
