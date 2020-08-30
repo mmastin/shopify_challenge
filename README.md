@@ -3,7 +3,7 @@
 
 ![Full data exploration & analysis Jupyter Notebook here](https://github.com/mmastin/shopify_challenge/blob/master/data_exploration.ipynb)
 
-From both the Sneaker Shop AOV problem description and a statistical summary of the dataset, it's clear that there are some large outlier orders skewing the AOV mean upwards. The simplest metric to use to improve insight into the value of a normal would be to use median (or 50% percentile value) in lieu of mean - or $284/per order. 
+From both the Sneaker Shop Average Order Value (AOV) problem description and a statistical summary of the dataset, it's clear that there are some large outlier orders skewing the AOV mean upwards. The simplest metric to use to improve insight into the value of a normal would be to use median (or 50% percentile value) in lieu of mean - or $284/per order. 
 
 But the simplest solution doesn't help determine why exactly the mean is so much higher!
 
