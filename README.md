@@ -1,8 +1,5 @@
-# Shopify Data Science Challenge
-
-
-
 # Sneaker Stores: Average Order Value
+
 
 ![Full data exploration & analysis Jupyter Notebook here](https://github.com/mmastin/shopify_challenge/blob/master/data_exploration.ipynb)
 
@@ -40,6 +37,7 @@ It would also be possible to use methods such as Z-scores and Interquartile Rang
 
 
 # SQL Queries
+
 
 > How many orders were shipped by Speedy Express in total?
 
