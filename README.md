@@ -52,7 +52,7 @@ Result: 54
 > What is the last name of the employee with the most orders?
 
 ```sql
-//SELECT Top 1 Employees.LastName
+// SELECT Top 1 Employees.LastName
 FROM Employees
 INNER JOIN Orders ON Employees.EmployeeID=Orders.EmployeeID
 GROUP BY Employees.LastName
@@ -64,7 +64,7 @@ Result: Peacock
 >What product was ordered the most by customers in Germany?
 
 ```sql
-//SELECT Top 1 Products.ProductName
+// SELECT Top 1 Products.ProductName
 FROM ((Products
   INNER JOIN OrderDetails ON Products.ProductID=OrderDetails.ProductID)
   INNER JOIN Orders ON OrderDetails.OrderID=Orders.OrderID)
